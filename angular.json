@@ -23,9 +23,9 @@
               "src/assets",
               "_redirects",
               {
-                "glob": "_redirects",
-                "input": "src",
-                "output": "/"
+                "glob": "*",
+                "input": "node_modules/font-awesome/fonts",
+                "output": "assets/fonts/"
               }
             ],
             "styles": ["src/styles.css"],
